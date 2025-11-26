@@ -892,4 +892,8 @@ section {
         left: 20px;
         transform: translateY(-50%);
     }
+    .experience-item::before {
+    content: none !important;
+    display: none !important;
+    }
 }
